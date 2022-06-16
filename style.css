@@ -1,5 +1,41 @@
+
+
+.nav-top a{
+  padding: 0px 10px;
+  background-color: lightgrey;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+h1, header, .main-content {
+  text-align: center;
+}
+
+.main-content figcaption {
+  text-align: center;
+
+  font-size: small;
+}
+
+#featured-property img {
+  align-items: center;
+  width: 900px;
+}
+
+#featured-property p {
+  display: inline-block;
+  text-align: center;
+  width: 800px;
+}
+
+.footer-details {
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  float: left;
+  background-color: red;
 }
